@@ -63,3 +63,39 @@ font-weight: 700;
     top: 250px;
     left: 100px;
 }
+
+.user-intro{
+    color: #282828;
+    font-size: 65px;
+    font-weight: 700;
+}
+.pink-name{
+    color: #FF4C60;
+}
+.downloadbtn{
+    color: #282828;
+    font-size: 16px;
+    margin-top: 12px;
+}
+.dash{
+    margin-left: 14px;
+}
+.scrollbtn{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.scrollicon{
+    width: 60px;
+}
+.scrolltext{
+    margin-top: -7px;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.userimg{
+    width: 580px;
+}
