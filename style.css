@@ -10,6 +10,7 @@ body{
 .general-content{
   max-width: 1200px;
   margin: 0 auto;
+  padding-bottom: 900px;
 }
 .navbar{
     background-color: #FFFAFA; 
@@ -98,4 +99,72 @@ font-weight: 700;
 }
 .userimg{
     width: 580px;
+    object-fit: cover;
+}
+.newsletter{
+    background-color: #F9F3F5;
+    padding: 30px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+.news-text{
+  width: 40%;
+  text-align: center;
+}
+.news-title{
+    color: #282828;
+    font-size: 30px;
+    font-weight: 700;
+}
+.news-prag{
+    color: #C4C4C4;
+    font-size: 18px;
+}
+.news-input{
+width: 60%;
+}
+.news-btn{
+    display: flex;
+    gap: 5px;
+}
+.news-email{
+    border: none;
+    outline: none;
+    background-color: #FFFAFA;
+}
+.newsbtn-text{
+    color: #282828
+}
+.inputbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFAFA;
+    padding: 22px 48px;
+}
+.skills{
+    margin-top: 100px;
+    display: flex;
+}
+.skills-img{
+ width: 45%;
+ position: relative;
+}
+.skills-content{
+ width: 55%;
+}
+.skillimg-bg{
+    width: 100%;
+}
+.skillimg-container{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
