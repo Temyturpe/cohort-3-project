@@ -4,6 +4,231 @@
     box-sizing: border-box;
 }
 body{
+    height: 100vh;
+}
+.general-hero{
+    height: 100%;
+    width: 100%;
+    background-image: url('/images/background.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 6rem;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.1rem 0rem;
+}
+.link{
+    margin-left: 1.1rem;
+    font-size: 1.1rem;
+    color: #303030;
+    text-decoration: none;
+}
+.active{
+    border-bottom: 2px solid #CAC6BB;
+}
+.navcenter{
+    font-size: 2.1rem;
+    font-weight: 800;
+    font-family: sans-serif;
+    color: #303030;
+}
+.span-title{
+    color: #909090;
+}
+.social-icons{
+    margin-left: 1.1rem;
+}
+.main-title{
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 0 0 0;
+}
+.username{
+    font-size: 5.4rem;
+    font-weight: 500;
+    color: #303030;
+    margin-bottom: -1rem;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    gap: 4.3rem;
+    margin-top: 2.5rem;
+}
+.service-heading{
+    color: #303030;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.service-items{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.service-item{
+    list-style: none;
+}
+.service-top{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.service-icon{
+    width: 42px;
+    height: 42px;
+    background-color: #F6F6F6;
+    box-shadow: 0px 24px 50px 0px rgba(13, 12, 56, 0.10);
+}
+.service-name{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.service-detail{
+    color: #909090;
+    font-size: 18px;
+    margin-top: .7rem;
+}
+.userimg{
+    width: 376px;
+    object-fit: cover;
+}
+.userimg-exp{
+    display: flex;
+    gap: 3.2rem;
+}
+.user-intro{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #303030;
+}
+.experience{
+    margin-top: 3rem;
+}
+.more-details{
+    color: #909090;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-top: 1.8rem;
+}
+.hirebtn{
+    border: none;
+    background-color: #303030;
+    color: #F6F6F6;
+    padding: 8px 12px;
+    font-size: 16px;
+    margin-top: 1.9rem;
+}
+.records{
+    margin-top: 2rem;
+}
+.record-items{
+    display: flex;
+    justify-content: space-between;
+}
+.record{
+    list-style: none;
+}
+.record-num{
+    font-size: 30px;
+    color: #303030;
+}
+.record-name{
+    color: #909090;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.animate{
+   font-size: 40px;
+   margin:60px 0px 0px 60px;
+   width: 200px;
+   height: 200px;
+   background-color: burlywood;
+   animation: allround 10s ease 1s 2 ;
+  
+} */
+/* .animate:hover{
+    transform: scaleX(2); 
+    transition: transform 2s ease 4s;
+    transition-property: transform;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 4s;
+} */
+/* @keyframes allround {
+    5%{
+        transform: translateX(150px);
+    }
+    25%{
+        transform: rotate(45deg);
+    }
+    50%{
+        transform: skew(10deg);
+    }
+    100%{
+        transform: scale(2);
+    }
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* project start */
+/* body{
    display: flex;
    justify-content: center;
    align-items: center;
@@ -86,9 +311,46 @@ padding: 30px 15px;
     height: 8px;
     background-color: #27AE60;
     border-radius: 10px;
+    animation: beeper .7s ease infinite;
+} */
+/* @keyframes beeper {
+    0%{
+        transform: scale(.8);
+    }
+    25%{
+        transform: scale(1);
+        background-color: red;
+    }
+    50%{
+        transform: scale(1.4);
+    }
+    100%{
+        transform: scale(.8);
+    }
+}
+@keyframes hr-move {
+    0%{
+        width: 100%;
+    }
+    25%{
+        width: 0;
+    }
+    50%{
+        width: 75%;
+    }
+    100%{
+        width: 100%;
+    }
 }
 hr{
     color: #F1F1F1;
+    animation: hr-move 2s ease ;
+}
+.hr{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media screen and (max-width: 885px) {
@@ -115,7 +377,7 @@ hr{
 @media screen and (max-width: 433px) {
     .card{
         width: 90%;
-        height: 60vh;
+        height: 70vh;
         gap: 4px;
     }
     .rightside{
@@ -131,8 +393,8 @@ hr{
     .infovalue{
         font-size: 16px;
     }
-}
-
+} */
+/* project end */
 
 
 /* .general-content{
